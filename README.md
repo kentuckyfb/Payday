@@ -3,13 +3,12 @@
 
 PAYDAY is a modern desktop and web application designed to help freelancers, shift workers, and anyone with variable work hours track their income, manage their schedule, and plan their finances.
 
-![image](https://github.com/user-attachments/assets/74341444-72dd-4951-9133-f96e209cb0df)
-![image](https://github.com/user-attachments/assets/b6e882e4-c5d6-4c0a-8a5d-d8aabe0b828b)
-![image](https://github.com/user-attachments/assets/c387d5ff-7154-4348-b25b-68bf46052fae)
-![image](https://github.com/user-attachments/assets/f67559ed-a014-42c1-8660-693af5b722f7)
-![image](https://github.com/user-attachments/assets/be2a848e-d727-4b29-8a34-8f565d9fd7ad)
-![image](https://github.com/user-attachments/assets/01c221e3-bc13-4f0d-985e-5c169be991f1)
-
+![image](https://github.com/user-attachments/assets/44f97fa5-4e37-406f-ad9d-841e89b65dae)
+![image](https://github.com/user-attachments/assets/6cbf5e3b-786e-4e13-bb2f-aab25bb21ec9)
+![image](https://github.com/user-attachments/assets/df116766-6514-43cb-9692-418b30c32f2d)
+![image](https://github.com/user-attachments/assets/8341a47c-2af8-4362-aae9-c5c9fa398f7b)
+![image](https://github.com/user-attachments/assets/aba491b0-2c68-4325-aa76-27d3de54ffb9)
+![image](https://github.com/user-attachments/assets/030d2784-1c61-44cc-884e-7ffa4ebbe2c8)
 
 ## Features
 * 📅 **Work Schedule Management**: Track shifts, appointments, and work hours
