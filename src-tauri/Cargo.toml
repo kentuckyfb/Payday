@@ -1,0 +1,29 @@
+[package]
+name = "payday"
+version = "1.0.0"
+description = "PAYDAY - Personal Finance Management App"
+authors = ["PAYDAY Team"]
+license = ""
+repository = ""
+default-run = "payday"
+edition = "2021"
+rust-version = "1.76"
+
+[build-dependencies]
+tauri-build = { version = "2.0.0-beta", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { version = "2.0.0-beta", features = [] }
+
+[features]
+default = [ "custom-protocol" ]
+custom-protocol = [ "tauri/custom-protocol" ]
+
+[profile.release]
+panic = "abort"
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true

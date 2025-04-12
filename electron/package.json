@@ -1,0 +1,15 @@
+
+{
+  "name": "payday",
+  "version": "1.0.0",
+  "main": "main.js",
+  "private": true,
+  "description": "PAYDAY - Personal Finance Management App",
+  "author": "PAYDAY Team",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^35.1.5"
+  }
+}

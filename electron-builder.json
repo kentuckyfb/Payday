@@ -1,0 +1,39 @@
+
+{
+  "appId": "com.payday.app",
+  "productName": "PAYDAY",
+  "copyright": "Copyright © 2025 PAYDAY",
+  "description": "Personal Finance Management Application",
+  "directories": {
+    "output": "release",
+    "buildResources": "public"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*"
+  ],
+  "win": {
+    "target": [
+      "nsis"
+    ],
+    "icon": "public/favicon.ico",
+    "artifactName": "${productName}-Setup-${version}.${ext}"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "PAYDAY"
+  },
+  "mac": {
+    "target": "dmg",
+    "icon": "public/favicon.ico",
+    "category": "public.app-category.finance"
+  },
+  "linux": {
+    "target": "AppImage",
+    "icon": "public/favicon.ico",
+    "category": "Office;Finance"
+  }
+}

@@ -1,0 +1,72 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 230 20% 10%;
+    --foreground: 270 100% 90%;
+
+    --card: 260 10% 15%;
+    --card-foreground: 270 100% 90%;
+
+    --popover: 260 10% 15%;
+    --popover-foreground: 270 100% 90%;
+
+    --primary: 270 80% 60%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 270 10% 25%;
+    --secondary-foreground: 270 100% 90%;
+
+    --muted: 260 10% 20%;
+    --muted-foreground: 270 10% 60%;
+
+    --accent: 270 10% 25%;
+    --accent-foreground: 270 100% 90%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 270 10% 30%;
+    --input: 270 10% 30%;
+    --ring: 270 80% 60%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 260 15% 10%;
+    --sidebar-foreground: 270 100% 90%;
+    --sidebar-primary: 270 80% 60%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 270 10% 15%;
+    --sidebar-accent-foreground: 270 100% 90%;
+    --sidebar-border: 270 10% 20%;
+    --sidebar-ring: 270 80% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border selection:bg-payday-purple/20 selection:text-payday-purple-light;
+  }
+  
+  body {
+    @apply bg-payday-dark text-white antialiased overflow-x-hidden min-h-screen;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply backdrop-blur-md bg-white/5 border border-white/10 shadow-lg;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-payday-purple to-payday-purple-light bg-clip-text text-transparent;
+  }
+}
